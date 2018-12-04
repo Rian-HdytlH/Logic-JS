@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<script>
+		document.write("___________________________________________________________________________________________________________________________________<br><br>")
+	document.write("LOGIC 1 <br><br>")
+		document.write("Soal 1 <br>")
+		//Masukkan Code di sini
+		//Jawaban Soal 1
+
+		function prn(prn) {
+			document.write(prn)
+		}
+
+		function space() {
+			document.write('<br>')
+		}
+
+		function ganjil(a) {
+			return a*2-1
+		}
+
+		function genap(a) {
+			return a*2-2
+		}
+
+		function pbound(a) {
+			return a - 1
+		}
+
+		for (y=1;y<10;y++){
+			for (x=1;x<10;x++){
+				if (x==y)prn('*')
+					else prn('_')
+			}
+		space()
+		}
+
+
+		document.write("________________________________________________<br><br>")
+
+
+		document.write("Soal 2 <br>")
+		//Masukkan Code di sini
+		//Jawaban Soal 2
+
+		for (y=1;y<10;y++){
+			for (x=1;x<10;x++){
+				if (x==(10-y))prn('*')
+					else prn('_')
+			}
+		space()
+		}
+
+		document.write("________________________________________________<br><br>")
+
+
+		document.write("Soal 3 <br>")
+		//Masukkan Code di sini
+		//Jawaban Soal 3
+
+		for (y=1;y<10;y++){
+			for (x=1;x<10;x++){
+				if (x==y || x==(10-y))prn('*')
+					else prn('_')
+			}
+		space()
+		}
+
+		document.write("________________________________________________<br><br>")
+
+
+
+		document.write("Soal 4 <br>")
+		//Masukkan Code di sini
+		//Jawaban Soal 4
+
+		for (y=1;y<10;y++){
+			for (x=1;x<10;x++){
+				if (x==y || x==(10-y))prn('*')
+					else if (x==5 || y==5)prn('*')
+						else prn('_')
+			}
+		space()
+		}
+		
+		document.write("________________________________________________<br><br>")
+
+
+		document.write("Soal 5 <br>")
+		//Masukkan Code di sini
+		//Jawaban Soal 5
+
+		for (y=1;y<10;y++){
+			for (x=1;x<10;x++){
+				if (x<=y)prn('*')
+					else prn('_')
+			}
+		space()
+		}
+
+		document.write("________________________________________________<br><br>")
+
+
+		document.write("Soal 6 <br>")
+		//Masukkan Code di sini
+		//Jawaban Soal 6
+
+		for (y=1;y<10;y++){
+			for (x=1;x<10;x++){
+				if (x>=(10-y))prn('*')
+					else prn('_')
+			}
+		space()
+		}
+		
+		document.write("________________________________________________<br><br>")
+
+
+		document.write("Soal 7 <br>")
+		//Masukkan Code di sini
+		//Jawaban Soal 7
+
+		for (y=1;y<10;y++){
+			for (x=1;x<10;x++){
+				if (x>=y && x<=(10-y))prn('*')
+					else if (x<=y && x>=(10-y))prn('*')
+						else prn('_')
+			}
+		space()
+		}
+		
+		document.write("________________________________________________<br><br>")
+
+
+		document.write("Soal 8 <br>")
+		//Masukkan Code di sini
+		//Jawaban Soal 8		
+
+		for (y=1;y<10;y++){
+			for (x=1;x<10;x++){
+				if (x>=y && x>=(10-y))prn('*')
+					else if (x<=y && x<=(10-y))prn('*')
+						else prn('_')
+			}
+		space()
+		}
+		document.write("________________________________________________<br><br>")
+
+
+
+document.write("___________________________________________________________________________________________________________________________________<br><br>")
+
+
+	document.write("LOGIC 2 <br><br>")
+		document.write("Soal 1 <br>")
+		//Masukkan Code di sini
+		//Jawaban Soal 1
+
+		for (y=1;y<10;y++){
+			for (x=1;x<10;x++){
+				if (x==y)prn(ganjil(y))
+					else prn('_')
+			}
+		space()
+		}
+
+		document.write("________________________________________________<br><br>")
+
+
+		document.write("Soal 2 <br>")
+		//Masukkan Code di sini
+		//Jawaban Soal 2
+
+		for (y=1;y<10;y++){
+			for (x=1;x<10;x++){
+				if (x==(10-y))prn(genap(x))
+					else prn('_')
+			}
+		space()
+		}
+
+		document.write("________________________________________________<br><br>")
+
+
+		document.write("Soal 3 <br>")
+		//Masukkan Code di sini
+		//Jawaban Soal 3
+
+		for (y=1;y<10;y++){
+			for (x=1;x<10;x++){
+				if (x==y)prn(ganjil(y))
+					else if (x==(10-y))prn(genap(x))
+						else prn('_')
+			}
+		space()
+		}
+
+		document.write("________________________________________________<br><br>")
+
+
+
+		document.write("Soal 4 <br>")
+		//Masukkan Code di sini
+		//Jawaban Soal 4
+
+		for (y=1;y<10;y++){
+			for (x=1;x<10;x++){
+				if (x==y || x==5)prn(ganjil(y))
+					else if (x==(10-y) || y==5)prn(genap(x))
+						else prn('_')
+			}
+		space()
+		}
+		
+		document.write("________________________________________________<br><br>")
+
+
+		document.write("Soal 5 <br>")
+		//Masukkan Code di sini
+		//Jawaban Soal 5
+
+		for (y=1;y<10;y++){
+			for (x=1;x<10;x++){
+				if (x<=y)prn(x*2-1)
+					else prn('_')
+			}
+		space()
+		}
+
+		document.write("________________________________________________<br><br>")
+
+
+		document.write("Soal 6 <br>")
+		//Masukkan Code di sini
+		//Jawaban Soal 6
+
+		for (y=1;y<10;y++){
+			for (x=1;x<10;x++){
+				if (x>=(10-y))prn(18-y*2)
+					else prn('_')
+			}
+		space()
+		}
+		
+		document.write("________________________________________________<br><br>")
+
+
+		document.write("Soal 7 <br>")
+		//Masukkan Code di sini
+		//Jawaban Soal 7
+
+		for (y=1;y<10;y++){
+			for (x=1;x<10;x++){
+				if (x==y)prn(ganjil(y))
+					else if (x==(10-y))prn(genap(x))
+						else if (x>=y && x<=(10-y))prn('A')
+							else if (x<=y && x>=(10-y))prn('B')
+								else prn('_')
+			}
+		space()
+		}
+		
+		document.write("________________________________________________<br><br>")
+
+
+		document.write("Soal 8 <br>")
+		//Masukkan Code di sini
+		//Jawaban Soal 8
+		
+		for (y=1;y<10;y++){
+			for (x=1;x<10;x++){
+				if (x==y)prn(ganjil(y))
+					else if (x==(10-y))prn(genap(x))
+						else if (x>=y && x>=(10-y))prn('B')
+							else if (x<=y && x<=(10-y))prn('A')
+								else prn ('_')
+			}
+		space()
+		}
+
+		document.write("________________________________________________<br><br>")
+
+
+document.write("___________________________________________________________________________________________________________________________________<br><br>")
+
+
+	document.write("LOGIC 3 <br><br>")
+		document.write("Soal 1 <br>")
+		//Masukkan Code di sini
+		//Jawaban Soal 1
+
+		function fib(a) {
+			if (a<=2){
+				return 1
+			} else {
+				return fib(a-1)+fib(a-2)
+			}
+		}
+
+		for(y=1;y<10;y++){
+			prn(fib(y)+' ')
+		}
+
+		document.write("________________________________________________<br><br>")
+		function fib2(a) {
+			if (a<=3){
+				return 1
+			} else {
+				return fib2(a-1)+fib2(a-2)+fib2(a-3)
+			}
+		}
+
+		for(y=1;y<10;y++){
+			prn(fib2(y)+' ')
+		}
+		space()
+
+		document.write("Soal 2 <br>")
+		//Masukkan Code di sini
+		//Jawaban Soal 2
+
+
+
+		document.write("________________________________________________<br><br>")
+
+
+		document.write("Soal 3 <br>")
+		//Masukkan Code di sini
+		//Jawaban Soal 3
+
+		function fpb(a,b) {
+			if (b==0){
+				return a
+			} else {
+				return fpb(b, a%b)
+			}
+		}
+
+		function kpk(a,b) {
+			return a*b / fpb(a,b)
+		}
+
+		function fpbkpk(a,b) {
+			prn('FPB : '+fpb(a,b)+'<br>')
+			prn('KPK : '+kpk(a,b))
+		}
+
+		fpbkpk(120,36)
+
+		document.write("________________________________________________<br><br>")
+
+
+
+		document.write("Soal 4 <br>")
+		//Masukkan Code di sini
+		//Jawaban Soal 4
+
+		for (y=1;y<10;y++){
+			for (x=1;x<10;x++){
+				var a = x==y ? ganjil(y) :
+						x==(10-y) ? genap(x) :
+						x>=y&& x<=(10-y) ? 'A' :
+						x>=y && x>=(10-y) ? 'B' :
+						x<=y && x>=(10-y) ? 'C' : 'D'
+						prn(a)
+			}
+			space()
+		}
+		
+		document.write("________________________________________________<br><br>")
+
+
+		document.write("Soal 5 <br>")
+		//Masukkan Code di sini
+		//Jawaban Soal 5
+
+		var b = 4
+		for (y=-b;y<=b;y++){
+			for (x=-b;x<=b;x++){
+				ya = Math.abs(y)
+				xa = Math.abs(x)
+				yaxa = ya > xa ? ya : xa
+				kur = 5 - yaxa
+				prn(fib(kur))
+			}
+			space()
+		}
+
+		document.write("________________________________________________<br><br>")
+
+
+		document.write("Soal 6 <br>")
+		//Masukkan Code di sini
+		//Jawaban Soal 6
+
+		var b = 4
+		for (y=-b;y<=b;y++){
+			for (x=-b;x<=b;x++){
+				ya = Math.abs(y)
+				xa = Math.abs(x)
+				yaxa = ya > xa ? ya : xa
+				kur = 5 - yaxa
+				if (kur%2==0){
+					prn('_')
+				} else {
+					prn(kur)
+				}
+			}
+			space()
+		}
+		
+		document.write("________________________________________________<br><br>")
+
+
+		document.write("Soal 7 <br>")
+		//Masukkan Code di sini
+		//Jawaban Soal 7
+
+		var b = 4
+		for (y=-b;y<=b;y++){
+			for (x=-b;x<=b;x++){
+				ya = Math.abs(y)
+				xa = Math.abs(x)
+				yaxa = ya > xa ? ya : xa
+				kur = 5 - yaxa
+				if (kur%2==0){
+					prn('_')
+				} else {
+					bulat = Math.ceil(kur/2)
+					prn(fib(bulat))
+				}
+			}
+			space()
+		}
+		
+		document.write("________________________________________________<br><br>")
+
+
+		document.write("Soal 8 <br>")
+		//Masukkan Code di sini
+		//Jawaban Soal 8
+		
+		var b = 4
+		for (y=-b;y<=b;y++){
+			for (x=-b;x<=b;x++){
+				ya = Math.abs(y)
+				xa = Math.abs(x)
+				yaxa = ya > xa ? ya : xa
+				kur = 5 - yaxa
+				if (kur%2==0){
+					huruf = ['A','B']
+					index= Math.ceil(kur/2)-1
+					prn(huruf[index])
+				} else {
+					bulat = Math.ceil(kur/2)
+					prn(fib(bulat)+' ')
+				}
+			}
+			space()
+		}
+
+		document.write("________________________________________________<br><br>")
+
+
+
+document.write("___________________________________________________________________________________________________________________________________<br><br>")
+
+
+	document.write("LOGIC 4 <br><br>")
+		document.write("Soal 1 <br>")
+		//Masukkan Code di sini
+		//Jawaban Soal 1
+
+		for (y=1;y<=5;y++){
+			for (x=1;x<=5-y;x++){
+				prn('_')
+			}
+			for (z=1;z<=ganjil(y);z++){
+				prn(z)
+			}
+			space()
+		}
+
+		document.write("________________________________________________<br><br>")
+
+
+		document.write("Soal 2 <br>")
+		//Masukkan Code di sini
+		//Jawaban Soal 2
+
+		for (y=1;y<=5;y++){
+			for (x=1;x<=y-1;x++){
+				prn('_')
+			} 
+			for (z=1;z<=ganjil(6-y);z++){
+				prn(z)
+			}
+			space()
+		}
+
+		document.write("________________________________________________<br><br>")
+
+
+		document.write("Soal 3 <br>")
+		//Masukkan Code di sini
+		//Jawaban Soal 3
+
+		for (y=-4;y<=4;y++){
+			ab = Math.abs(y)
+			for (x=1;x<=ab;x++){
+				prn('_')
+			}
+			for (z=1;z<=ganjil(5-ab);z++){
+				prn(z)
+			}
+			space()
+		}
+
+		document.write("________________________________________________<br><br>")
+
+
+
+		document.write("Soal 4 <br>")
+		//Masukkan Code di sini
+		//Jawaban Soal 4
+
+		for (y=1;y<=5;y++){
+			for (x=1;x<=5-y;x++){
+				prn('_')
+			}
+			ac = pbound(y)
+			for (z=-ac;z<=ac;z++){
+				ad = y - Math.abs(z)
+				prn(ganjil(ad))
+			}
+			space()
+		}
+		
+		document.write("________________________________________________<br><br>")
+
+
+		document.write("Soal 5 <br>")
+		//Masukkan Code di sini
+		//Jawaban Soal 5
+
+		for (y=1;y<=5;y++){
+			for (x=1;x<=y-1;x++){
+				prn('_')
+			}
+			ae = 6 - y
+			af = pbound(ae)
+			for (z=-af;z<=af;z++){
+				ag = ae - Math.abs(z)
+				prn(ganjil(ag))
+			}
+			space()
+		}
+
+		document.write("________________________________________________<br><br>")
+
+
+		document.write("Soal 6 <br>")
+		//Masukkan Code di sini
+		//Jawaban Soal 6
+		for (y=-4;y<=4;y++){
+			ah = Math.abs(y)
+			for (x=1;x<=ah;x++){
+				prn('_')
+			}
+			aj = 5 - ah
+			ai = pbound(aj)
+			for (z=-ai;z<=ai;z++){
+				ak = Math.abs(z)
+				al = aj - ak
+				prn(ganjil(al))
+			}
+			space()
+		}
+
+		
+		document.write("________________________________________________<br><br>")
+
+
+
+
+		document.write("Soal 7 <br>")
+		//Masukkan Code di sini
+		//Jawaban Soal 7
+
+		
+		document.write("________________________________________________<br><br>")
+		for (y=-4;y<=4;y++){
+			ah = Math.abs(y)
+			for (i=1;i<=6;i++){
+			for (x=1;x<=ah;x++){
+				if (i>1 && x==1){
+					continue;
+				}
+				prn('_')
+			}
+			aj = 5 - ah
+			ai = pbound(aj)
+			for (z=-ai;z<=ai;z++){
+				if (i>1 && z==-4){
+					continue;
+				}
+				ak = Math.abs(z)
+				al = aj - ak
+				prn(ganjil(al))
+			}
+			for (x=1;x<=ah;x++){
+				prn('_')
+			}
+		}
+			space()
+		}
+
+		document.write("Soal 8 <br>")
+		//Masukkan Code di sini
+		//Jawaban Soal 8
+		
+		for (y=-4;y<=4;y++){
+			for (i=1;i<=2;i++){
+			for (x=1;x<=Math.abs(y);x++){
+				if (i>1 && x==1){
+					continue;
+				}
+				prn('_')
+			}
+			var am = 4 - Math.abs(y)
+			for (z=-am;z<=am;z++){
+				if (i>1 && z==-4){
+					continue;
+				}
+				var an = Math.abs(z) + Math.abs(y)
+				if (an%2==1){
+					prn('_')
+				} else {
+					yn = Math.abs(y)+ 1
+					nr = (5-an) / 2+1
+					mx = Math.ceil(yn,nr)
+					prn(fib(mx))
+				}
+			}
+			for (x=1;x<=Math.abs(y);x++){
+					prn('_')
+			}
+		}
+			space()
+		}
+
+
+		document.write("________________________________________________<br><br>")
+
+
+
+
+	document.write("LOGIC 5 <br><br>")
+		document.write("Soal 1 <br>")
+		//Masukkan Code di sini
+		//Jawaban Soal 1
+
+
+
+		document.write("________________________________________________<br><br>")
+
+
+		document.write("Soal 2 <br>")
+		//Masukkan Code di sini
+		//Jawaban Soal 2
+
+
+
+		document.write("________________________________________________<br><br>")
+
+
+		document.write("Soal 3 <br>")
+		//Masukkan Code di sini
+		//Jawaban Soal 3
+
+
+
+		document.write("________________________________________________<br><br>")
+
+
+
+		document.write("Soal 4 <br>")
+		//Masukkan Code di sini
+		//Jawaban Soal 4
+
+
+		
+		document.write("________________________________________________<br><br>")
+
+
+		document.write("Soal 5 <br>")
+		//Masukkan Code di sini
+		//Jawaban Soal 5
+
+
+
+		document.write("________________________________________________<br><br>")
+
+
+		document.write("Soal 6 <br>")
+		//Masukkan Code di sini
+		//Jawaban Soal 6
+
+
+		
+		document.write("________________________________________________<br><br>")
+
+
+		document.write("Soal 7 <br>")
+		//Masukkan Code di sini
+		//Jawaban Soal 7
+
+
+		
+		document.write("________________________________________________<br><br>")
+
+
+		document.write("Soal 8 <br>")
+		//Masukkan Code di sini
+		//Jawaban Soal 8
+		
+
+
+		document.write("________________________________________________<br><br>")
+
+	</script>
+</body>
+</html>
